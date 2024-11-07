@@ -1,5 +1,5 @@
 .container{
-    height: 65vh;
+    height: 85vh;
 }
 .row{
     height: 100%;
@@ -136,6 +136,7 @@
         height: 120vh;
     }
     .col{
+        padding-top: 5%;
         width: 100%;
     }
     .form{
@@ -147,12 +148,13 @@
         width: 90%;
     }
     .btn{
-        width: 40%;
+        width: 60%;
         font-size: 1rem;
         height: 7%;
         margin-top: 5%;
     }
     .col2{
+        margin-top: 5%;
         width: 100%;
     }
   }
@@ -236,7 +238,7 @@
     }
     .col2{
         width: 50%;
-        
+     
     }
     .intro{
         width: 80%;
