@@ -129,7 +129,27 @@
   @media screen and (min-width: 375px) and (max-width: 414px) {
     /* Styles for medium-sized phones */
     .container{
-        background-color: pink;
+        height: 120vh;
+    }
+    .col{
+        width: 100%;
+    }
+    .form{
+        width: 100vw;
+        height: 70vh;
+    }
+    .intro{
+        font-size: 1rem;
+        width: 90%;
+    }
+    .btn{
+        width: 40%;
+        font-size: 1rem;
+        height: 7%;
+        margin-top: 5%;
+    }
+    .col2{
+        width: 100%;
     }
   }
   
