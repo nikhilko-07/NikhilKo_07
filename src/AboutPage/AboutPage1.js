@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import Style from "./AboutPage.module.css";
 import Aboutimg from "./Aboutimg.webp";
 
@@ -27,7 +27,7 @@ const AboutPage1 = () => {
               justifyContent: "center",
             }}
           >
-            <img className={`${Style.aboutimg}`}src={Aboutimg} />
+            <img style={{width:"70%"}} className={`${Style.aboutimg}`}src={Aboutimg} />
           </div>
         </div>
       </div>
