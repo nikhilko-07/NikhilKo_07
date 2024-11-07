@@ -45,7 +45,7 @@ const HomePart1 = () => {
           </div>
         </div>
         <div className={`${Style.part2} col-6`}>
-          <img className={`${Style.Profile}`} src={Profile} />
+          <img  className={`${Style.Profile}`} src={Profile} />
         </div>
       </div>
     </div>
