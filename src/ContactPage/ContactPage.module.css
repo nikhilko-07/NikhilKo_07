@@ -164,24 +164,51 @@
   /* Large tablets (768px to 1024px) */
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     /* Styles for large tablets */
-    .container{
-        background-color: blue;
+    .col{
+        width: 50%;
+    }
+    .form{
+        width: 100%;
+        height: 50vh;
+    }
+    .btn{
+        margin-top: 5%;
+        width: 60%;
+        margin-bottom: 5%;
+    }
+    .col2{
+        width: 50%;
+        
+    }
+    .intro{
+        width: 80%;
+        font-size: 1rem;
     }
   }
   
   /* Small desktops (1024px to 1280px) */
   @media screen and (min-width: 1024px) and (max-width: 1280px) {
     /* Styles for small desktops */
-    .container{
-        background-color: yellow;
+    
+    .form{
+        width: 60%;
+    }
+    .intro{
+        font-size: 0.7rem;
+        width: 80%;
+    }
+    .heading{
+        font-size: 1.25rem;
+    }
+    .btn{
+        width: 60%;
+        font-size: 1rem;
     }
   }
   
   /* Larger desktops (1280px and up) */
   @media screen and (min-width: 1280px) {
     /* Styles for large desktops */
-    .container{
-        background-color: orangered;
-    }
+    
   }
   
