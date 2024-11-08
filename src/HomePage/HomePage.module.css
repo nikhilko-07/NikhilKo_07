@@ -109,7 +109,7 @@ body{
     width: 70%;
 }
 
-
+/* I PHONE 5 */
 @media (min-width: 0px) and (max-width: 320px){
     .container{
         height: 120vh;
