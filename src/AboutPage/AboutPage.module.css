@@ -86,57 +86,269 @@
     color: #8750F7;
 }
 
-/* iPhone 5 and smaller */
-@media screen and (max-width: 320px) {
-    /* Styles for small phones */
+/* I PHONE 5 */
+@media (min-width: 0px) and (max-width: 320px) {
     .container1{
-        background-color: red;
+        height: 120vh;
     }
-  }
-  
-  /* iPhone 6/7/8 (375px to 414px) */
-  @media screen and (min-width: 320px) and (max-width: 414px) {
-    /* Styles for medium-sized phones */
-  .container1{
-    background-color: blue;
-  }
-  }
-  
-  @media screen and (min-width: 414px) and (max-width: 600px) {
-  .container1{
-    background-color: green;
-  }
-  }
-
-  /* Small tablets (600px to 767px) */
-  @media screen and (min-width: 600px) and (max-width: 767px) {
-    /* Styles for small tablets */
-    .container1{
-        background-color: yellow;
+    .row{
+        display: block;
+        width: 100%;
     }
-   
-  }
-  
-  /* Large tablets (768px to 1024px) */
-  @media screen and (min-width: 768px) and (max-width: 1024px) {
-    /* Styles for large tablets */
- .container1{
-    background-color: aqua;
- }
-  }
-  
-  /* Small desktops (1024px to 1280px) */
-  @media screen and (min-width: 1024px) and (max-width: 1280px) {
-    /* Styles for small desktops */
-    .container1{
-        background-color: white;
+    .intro{
+        padding-top: 5%;
+        width: 100%;
+        height: 60%;
     }
-  
-  }
-  
-  /* Larger desktops (1280px and up)
-  @media screen and (min-width: 1280px) {
-    Styles for large desktops
+    .aboutcontainer{
+        height: 40%;
+        width: 100%;
+    }
     
-  }
-   */
+    .container2{
+        height:140vh;
+    }
+    .skills{
+        font-size: 2rem;
+        padding-top: 5%;
+    }
+    .content{
+        width: 100%;
+        font-size: 0.7rem;
+        text-align: center;
+        padding-top: 5%;
+    }
+    .langs{
+        display: grid;
+        padding-top: 5%;
+        grid-template-columns: auto auto;
+        grid-gap: 5rem 2rem;
+    }
+    .langs div{
+        height: 20vh;
+        width: 35vw;
+        border-radius: 1rem;
+    }
+    .logos h6{
+        font-size: 1rem;
+    }
+    .title{
+        font-size: 1.25rem;
+    }
+}
+
+/* NORMAL PHONE */
+@media (min-width: 321px) and (max-width: 375px){
+    .container1{
+        height: 80vh;
+    }
+    .row{
+        display: block;
+        width: 100%;
+    }
+    .intro{
+        padding-top: 5%;
+        width: 100%;
+        height: 60%;
+    }
+    .aboutcontainer{
+        height: 40%;
+        width: 100%;
+    }
+    .container2{
+        height: 120vh;
+    }
+    .skills{
+        font-size: 3rem;
+        padding-top: 5%;
+    }
+    .content{
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .langs{
+        display: grid;
+        padding-top: 5%;
+        grid-template-columns: auto auto;
+        grid-gap: 6rem 2rem;
+    }
+    .langs div{
+        height: 15vh;
+        width: 35vw;
+        border-radius: 1rem;
+    }
+    .logos h6{
+        font-size: 1rem;
+    }
+    .title{
+        font-size: 1.25rem;
+    }
+} 
+
+/* I PHONE 13 ONE PLUS*/
+@media (min-width: 376px) and (max-width: 425px){
+    .container1{
+        height:80vh;
+    }
+    .row{
+        display: block;
+        width: 100%;
+    }
+    .intro{
+        padding-top: 5%;
+        width: 100%;
+        height: 60%;
+    }
+    .aboutcontainer{
+        height: 40%;
+        width: 100%;
+    }
+    .container2{
+        height: 110vh;
+    }
+    .skills{
+        font-size: 3rem;
+        padding-top: 5%;
+    }
+    .content{
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+        padding-top: 5%;
+    }
+    .langs{
+        display: grid;
+        padding-top: 5%;
+        grid-template-columns: auto auto;
+        grid-gap: 6rem 2rem;
+    }
+    .langs div{
+        height: 15vh;
+        width: 35vw;
+        border-radius: 1rem;
+    }
+    .logos h6{
+        font-size: 1rem;
+    }
+    .title{
+        font-size: 1.25rem;
+    }
+}
+
+/* I PHONE 13 MAX */
+@media (min-width: 426px) and (max-width: 767px) {
+    .container1{
+        height: 80vh;
+    }
+    .row{
+        display: block;
+        width: 100%;
+    }
+    .intro{
+        padding-top: 5%;
+        width: 100%;
+        height: 60%;
+    }
+    .aboutcontainer{
+        height: 40%;
+        width: 100%;
+    }
+    
+    .container2{
+        height: 110vh;
+    }
+    .skills{
+        font-size: 3rem;
+        padding-top: 5%;
+    }
+    .content{
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+        padding-top: 5%;
+    }
+    .langs{
+        display: grid;
+        padding-top: 5%;
+        grid-template-columns: auto auto;
+        grid-gap: 6rem 2rem;
+    }
+    .langs div{
+        height: 15vh;
+        width: 35vw;
+        border-radius: 1rem;
+    }
+    .logos h6{
+        font-size: 1rem;
+    }
+    .title{
+        font-size: 1.25rem;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px){
+    .container1{
+        height: 50vh;
+    }
+    .container2{
+        height: 90vh;
+    }
+    .skills{
+        padding-top: 5%;
+    }
+    .content{
+        width:60%;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .langs{
+        display: grid;
+        padding-top: 5%;
+        grid-template-columns: auto auto auto;
+        grid-gap: 6rem 2rem;
+    }
+    .langs div{
+        height: 15vh;
+        width: 20vw;
+        border-radius: 1rem;
+    }
+    .logos h6{
+        font-size: 1rem;
+    }
+    
+}
+
+/* Foldable Mobile */
+@media (min-width: 1024px) and (max-width: 1439px){
+    .container2{
+        height: 150vh;
+    }
+    
+    .content{
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .langs{
+        display: grid;
+        padding-top: 5%;
+        grid-template-columns: auto auto auto;
+        grid-gap: 8rem 2rem;
+    }
+    .langs div{
+        height: 30vh;
+        width: 20vw;
+        border-radius: 1rem;
+    }
+    .logos h6{
+        font-size: 1rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+}
