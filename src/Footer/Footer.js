@@ -11,7 +11,7 @@ const Footer = () => {
             <img className={`${Style.Logo}`} src={Logo} />
           </div>
 
-          <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
+          <div className={`${Style.content}`} >
             <h5>© 2024 All Rights Reserved by Nikhil Kohli</h5>
           </div>
 
