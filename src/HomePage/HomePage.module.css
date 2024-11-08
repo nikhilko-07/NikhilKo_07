@@ -315,10 +315,62 @@ body {
     font-size: 1rem;
   }
   .content {
-    font-size: 1rem; 
+    font-size: 1rem;
   }
   .information {
     height: 100%;
     width: 100%;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .dev {
+        width: 100%;
+        font-size: 3.5rem;
+    }
+    .Profile{
+        width: 70%;
+    }
+    .btns {
+        gap: 10%;
+      }
+      .icons {
+        font-size: 3vh;
+      }
+      .cv {
+        width: 50%;
+        font-size: 1rem;
+        height: 6vh;
+      }
+      .heading {
+        font-size: 2.5rem;
+      }
+      
+      .information {
+        height: 100%;
+        width: 80%;
+      }
+}
+
+/* Foldable Mobile */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .container {
+    height: 100vh;
+  }
+  .dev {
+    width: 100%;
+    font-size: 3.5rem;
+  }
+  .btns {
+    gap: 10%;
+  }
+  .icons {
+    font-size: 5vh;
+  }
+  .cv {
+    width: 40%;
+    font-size: 1rem;
+    height: 8vh;
   }
 }
