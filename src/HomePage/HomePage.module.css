@@ -90,70 +90,74 @@ body{
     align-items: center;
     height: 80vh;
 }
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    margin-top: 4%;
+    text-align: center;
+}
+.heading{
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.info{
+    height: 100%;
+    width: 70%;
+}
 
 
-
-@media (max-width: 575.98px) {
-    /* Styles for small devices */
+@media (min-width: 0px) and (max-width: 320px){
     .container{
-        height: 100vh;
+        height: 120vh;
+    }
+    .part1{
+        width: 100%;
+        height: 60%;
+    }
+    .row{
         display: block;
     }
-   
-    .part1{
-        width: 100vw;
+    .name{
+        font-size: 1.5rem;
+        width: 100%;
     }
     .dev{
-        font-size: 4rem;
+        width: 100%;
+        font-size: 2.5rem;
     }
-    .part3{
-        height: 100vh;
-    }
-    .info{
-        font-size: 1.2rem;
+    .cv{
+        width: 45%;
+        font-size: 1rem;
+        height: 8vh;
     }
     .icons{
-        width: 100%;
         font-size: 5vh;
-    }
-    .name{
-        font-size: 2rem;
+        
     }
     .btns{
-        gap: 1%;
-        width: 100%;
+        gap: 5%;
     }
     .part2{
         width: 100%;
-        height: 50%;
+        height: 40%;
+        padding-bottom: 5%;
     }
-    .cv{
-        width: 60%;
-        height: 7vh;
+    .part3{
+        height: 100vh;
+        font-size: 1rem;
+    }
+    .heading{
+        font-size: 1.5rem;
+    }
+    .content{
+        font-size: 1rem;
+    }
+    .info{
+        height: 100%;
+        width: 100%;
     }
 }
-  
-  /* Small devices (phones, 576px and up) */
-  @media (min-width: 576px) and (max-width: 767.98px) {
-    /* Styles for small phones */
-   
-   
-}
-  
-  /* Medium devices (tablets, 768px and up) */
-  @media (min-width: 768px) and (max-width: 991.98px) {
-    /* Styles for tablets */
-   
-    
-
-  }
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media (min-width: 992px) and (max-width: 1199.98px) {
-    /* Styles for laptops and desktops */
-   
-    
-  }
-  
-  /* Extra large devices (large desktops, 1200px and up) */
-  

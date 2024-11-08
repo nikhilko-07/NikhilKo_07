@@ -5,25 +5,25 @@ const HomePart2 = () => {
     <div className={`${Style.part3}`}>
       <div className="container">
         <div className="row">
-          <div className="col-12" style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-            <div style={{ height: "100%",width:"70%"}}>
-              <h1 style={{ marginBottom: "5%", textAlign: "center" }}>
+          <div className={`${Style.wrapper} col-12`}>
+            <div className={`${Style.info}`}>
+              <h1 className={`${Style.heading}`}>
                 LET ME <span style={{ color: "#8750F7" }}> INTRODUCE</span>{" "}
                 MYSELF
               </h1>
-              <h4 style={{textAlign:"center"}}>
+              <h4 className={`${Style.content}`}>
                 I've developed a passion for programming and feel that I've
                 gained valuable knowledge along the way, I think… 🤷‍♂️
               </h4>
-              <h4 style={{marginTop:"4%",textAlign:"center"}}>
+              <h4 className={`${Style.content}`}>
                 I am interested in developing innovative web technologies and
                 products, as well as exploring related fields
               </h4>
-              <h4 style={{marginTop:"4%",textAlign:"center"}}>
+              <h4 className={`${Style.content}`}>
                 I am skilled in classic technologies such as JS, NodeJS,
                 MongoDB, HTML, CSS, React, etc.
               </h4>
-              <h4 style={{marginTop:"4%",textAlign:"center"}}>
+              <h4 className={`${Style.content}`}>
                 I have a passion for creating cutting-edge web technologies and
                 products, along with a keen interest in related areas. Node.js
                 and Modern Javascript Library and Frameworks like React.js and
