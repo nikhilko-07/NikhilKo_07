@@ -6,7 +6,7 @@ const HomePart2 = () => {
       <div className="container">
         <div className="row">
           <div className={`${Style.wrapper} col-12`}>
-            <div className={`${Style.info}`}>
+            <div className={`${Style.information}`}>
               <h1 className={`${Style.heading}`}>
                 LET ME <span style={{ color: "#8750F7" }}> INTRODUCE</span>{" "}
                 MYSELF
