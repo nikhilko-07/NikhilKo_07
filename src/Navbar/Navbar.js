@@ -63,7 +63,7 @@ const Navbar = () => {
           <ul className="navbar-nav ms-auto" style={{gap:"10%"}}>
                 <li ><Link style={{fontSize:'1.5rem',color:'white',textDecoration:"none"}} to="/">Home</Link></li>
                 <li ><Link style={{fontSize:'1.5rem',color:'white',textDecoration:"none"}} to="/about">About</Link></li>
-                <li ><Link style={{fontSize:'1.5rem',color:'white',textDecoration:"none"}} to="/product">Product</Link></li>
+                <li ><Link style={{fontSize:'1.5rem',color:'white',textDecoration:"none"}} to="/product">Projects</Link></li>
                 <li ><Link style={{fontSize:'1.5rem',color:'white',textDecoration:"none"}} to="/contact">Contact</Link></li>
           </ul>
         </div>
