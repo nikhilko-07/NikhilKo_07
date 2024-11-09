@@ -9,15 +9,12 @@ const HomePart2 = () => {
             <div className={`${Style.information}`}>
               <h1 className={`${Style.heading}`}>
                 LET ME <span style={{ color: "#8750F7" }}> INTRODUCE</span>{" "}
-                MYSELF
               </h1>
               <h4 className={`${Style.content}`}>
-                I've developed a passion for programming and feel that I've
-                gained valuable knowledge along the way, I think… 🤷‍♂️
+              I’ve learned how to turn ideas into functional, interactive designs that capture attention and provide value to users across various devices.
               </h4>
               <h4 className={`${Style.content}`}>
-                I am interested in developing innovative web technologies and
-                products, as well as exploring related fields
+                Programming in my passion, that's the reason I am working at the time of my academic career.
               </h4>
               <h4 className={`${Style.content}`}>
                 I am skilled in classic technologies such as JS, NodeJS,

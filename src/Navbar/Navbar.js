@@ -60,11 +60,11 @@ const Navbar = () => {
           } collapse navbar-collapse`}
           id="navbarNav"
         >
-          <ul className="navbar-nav ms-auto" style={{gap:"10%"}}>
-                <li ><Link style={{fontSize:'1.5rem',color:'white',textDecoration:"none"}} to="/">Home</Link></li>
-                <li ><Link style={{fontSize:'1.5rem',color:'white',textDecoration:"none"}} to="/about">About</Link></li>
-                <li ><Link style={{fontSize:'1.5rem',color:'white',textDecoration:"none"}} to="/product">Projects</Link></li>
-                <li ><Link style={{fontSize:'1.5rem',color:'white',textDecoration:"none"}} to="/contact">Contact</Link></li>
+          <ul className="navbar-nav ms-auto links" style={{gap:"10%"}}>
+                <li ><Link className={`${Style.linkhover}`} to="/">Home</Link></li>
+                <li ><Link className={`${Style.linkhover}`} to="/about">About</Link></li>
+                <li ><Link className={`${Style.linkhover}`} to="/product">Projects</Link></li>
+                <li ><Link className={`${Style.linkhover}`} to="/contact">Contact</Link></li>
           </ul>
         </div>
       </div>
