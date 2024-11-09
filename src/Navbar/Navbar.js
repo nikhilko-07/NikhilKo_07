@@ -52,7 +52,7 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+        <span><i class='bx bx-list-ul' style={{color:"white",fontSize:"2rem"}}></i></span>
         </button>
         <div
           className={`text-white container ${

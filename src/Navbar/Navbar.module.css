@@ -1,4 +1,7 @@
 .bg-custom {
     background-color: #0F0715 !important; /* Use !important to override Bootstrap styles if necessary */
   }
+  .navbar-toggler-icon {
+    color: white !important;
+  }
   
