@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Style from './Navbar.module.css';
+import Style from "./Navbar.module.css";
+import { Link } from "react-router-dom";
 
 import Logo from "./Logo.png"; // Ensure the path to your logo is correct
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -38,7 +39,7 @@ const Navbar = () => {
         transition: "box-shadow 0.3s ease, background-color 0.3s ease",
       }}
     >
-      <div className="container text-white"  >
+      <div className="container text-white">
         <a className="navbar-brand" href="#">
           <img width={50} src={Logo} alt="Logo" />
         </a>
@@ -54,52 +55,18 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div
-  className={`text-white container ${
-    !isScrolled ? Style["bg-custom"] : "bg-black"
-  } collapse navbar-collapse`}
-  id="navbarNav"
->
-  <ul className="navbar-nav ms-auto">
-    <li className="nav-item">
-      <a
-        style={{ fontSize: "1.5rem", color: "white" }}
-        className="nav-link active"
-        aria-current="page"
-        href="/"
-      >
-        Home
-      </a>
-    </li>
-    <li className="nav-item">
-      <a
-        style={{ fontSize: "1.5rem", color: "white" }}
-        className="nav-link"
-        href="/about"
-      >
-        About
-      </a>
-    </li>
-    <li className="nav-item">
-      <a
-        style={{ fontSize: "1.5rem", color: "white" }}
-        className="nav-link"
-        href="/projects"
-      >
-        Projects
-      </a>
-    </li>
-    <li className="nav-item">
-      <a
-        style={{ fontSize: "1.5rem", color: "white" }}
-        className="nav-link"
-        href="/contact"
-      >
-        Contact
-      </a>
-    </li>
-  </ul>
-</div>
-
+          className={`text-white container ${
+            !isScrolled ? Style["bg-custom"] : "bg-black"
+          } collapse navbar-collapse`}
+          id="navbarNav"
+        >
+          <ul className="navbar-nav ms-auto" style={{gap:"10%"}}>
+                <li ><Link style={{fontSize:'1.5rem',color:'white',textDecoration:"none"}} to="/">Home</Link></li>
+                <li ><Link style={{fontSize:'1.5rem',color:'white',textDecoration:"none"}} to="/about">About</Link></li>
+                <li ><Link style={{fontSize:'1.5rem',color:'white',textDecoration:"none"}} to="/product">Product</Link></li>
+                <li ><Link style={{fontSize:'1.5rem',color:'white',textDecoration:"none"}} to="/contact">Contact</Link></li>
+          </ul>
+        </div>
       </div>
     </nav>
   );
