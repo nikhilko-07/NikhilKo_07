@@ -1,0 +1,378 @@
+.container1{
+    height: 70vh;
+    display: flex;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro div p{
+    font-size: 1.3rem;
+    margin-bottom: 1%;
+    margin-left: 5%;
+}
+.aboutimg{
+    width: 70%;
+}
+
+
+.container2{
+    height:65vh;
+    background-color: #050709;
+}
+.content{
+    width: 50%;
+    text-align: center;
+    
+}
+.skills{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 4%;
+    margin-top: 5%;
+    background: linear-gradient(to right, rgb(135, 80, 247) 0%, rgb(255, 255, 255) 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.langs{
+ 
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    height: 30vh;
+}
+.langs div{
+    background-color: #140C1C;
+    height: 18vh;
+    width: 10vw;
+    border-radius: 1.9rem;
+    text-align: center;
+}
+.logos{
+    padding-top: 20%;
+    align-items: center;
+    justify-content: center;
+
+}
+.logos img{
+    filter: grayscale(100%);
+    transition: transform 0.3s ease, filter 0.3s ease; /* Apply transition to the default state */
+    transform: scale(1); /* Ensure the default scale is set */
+    width: 50%;
+}
+
+.logos h6{
+    color: #8750F7;
+    padding-top: 15%;
+    font-size: 1.5rem;
+    text-align: center;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease; 
+}
+.logos:hover img,
+.logos:hover h6 {
+    filter: grayscale(0%);
+    transform: scale(1.1); /* Scale the image to 110% of its original size */
+    transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition effect */
+
+}
+
+.title{
+    font-size: 1.5rem;
+    padding-top: 5%;
+    color: #8750F7;
+}
+
+/* I PHONE 5 */
+@media (min-width: 0px) and (max-width: 320px) {
+    .container1{
+        height: 140vh;
+    }
+    .row{
+        display: block;
+        width: 100%;
+    }
+    .intro{
+        padding-top: 5%;
+        width: 100%;
+        height: 60%;
+    }
+    .intro div p{
+        font-size: 1.2rem;
+    }
+    .aboutcontainer{
+        height: 40%;
+        width: 100%;
+    }
+    
+    .container2{
+        height:140vh;
+    }
+    .skills{
+        font-size: 2rem;
+        padding-top: 5%;
+    }
+    .content{
+        width: 100%;
+        font-size: 0.7rem;
+        text-align: center;
+        padding-top: 5%;
+    }
+    .langs{
+        display: grid;
+        padding-top: 5%;
+        grid-template-columns: auto auto;
+        grid-gap: 5rem 2rem;
+    }
+    .langs div{
+        height: 20vh;
+        width: 35vw;
+        border-radius: 1rem;
+    }
+    .logos h6{
+        font-size: 1rem;
+    }
+    .title{
+        font-size: 1.25rem;
+    }
+}
+
+/* NORMAL PHONE */
+@media (min-width: 321px) and (max-width: 375px){
+    .container1{
+        height:90vh;
+    }
+    .row{
+        display: block;
+        width: 100%;
+    }
+    .intro{
+        padding-top: 5%;
+        width: 100%;
+        height: 60%;
+    }
+    .intro div p{
+        font-size: 1.1rem;
+    }
+    .aboutcontainer{
+        height: 40%;
+        width: 100%;
+    }
+    .container2{
+        height: 120vh;
+    }
+    .skills{
+        font-size: 3rem;
+        padding-top: 5%;
+    }
+    .content{
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .langs{
+        display: grid;
+        padding-top: 5%;
+        grid-template-columns: auto auto;
+        grid-gap: 6rem 2rem;
+    }
+    .langs div{
+        height: 15vh;
+        width: 35vw;
+        border-radius: 1rem;
+    }
+    .logos h6{
+        font-size: 1rem;
+    }
+    .title{
+        font-size: 1.25rem;
+    }
+} 
+
+/* I PHONE 13 ONE PLUS*/
+@media (min-width: 376px) and (max-width: 425px){
+    .container1{
+        height:85vh;
+    }
+    .intro div p{
+        font-size: 1.1rem;
+    }
+    .row{
+        display: block;
+        width: 100%;
+    }
+    .intro{
+        padding-top: 5%;
+        width: 100%;
+        height: 60%;
+    }
+    .aboutcontainer{
+        height: 40%;
+        width: 100%;
+    }
+    .container2{
+        height: 110vh;
+    }
+    .skills{
+        font-size: 3rem;
+        padding-top: 5%;
+    }
+    .content{
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+        padding-top: 5%;
+    }
+    .langs{
+        display: grid;
+        padding-top: 5%;
+        grid-template-columns: auto auto;
+        grid-gap: 6rem 2rem;
+    }
+    .langs div{
+        height: 15vh;
+        width: 35vw;
+        border-radius: 1rem;
+    }
+    .logos h6{
+        font-size: 1rem;
+    }
+    .title{
+        font-size: 1.25rem;
+    }
+}
+
+/* I PHONE 13 MAX */
+@media (min-width: 426px) and (max-width: 767px) {
+    .container1{
+        height: 80vh;
+    }
+    .intro div p{
+        font-size: 1.1rem;
+    }
+    .row{
+        display: block;
+        width: 100%;
+    }
+    .intro{
+        padding-top: 5%;
+        width: 100%;
+        height: 60%;
+    }
+    .aboutcontainer{
+        height: 40%;
+        width: 100%;
+    }
+    
+    .container2{
+        height: 110vh;
+    }
+    .skills{
+        font-size: 3rem;
+        padding-top: 5%;
+    }
+    .content{
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+        padding-top: 5%;
+    }
+    .langs{
+        display: grid;
+        padding-top: 5%;
+        grid-template-columns: auto auto;
+        grid-gap: 6rem 2rem;
+    }
+    .langs div{
+        height: 15vh;
+        width: 35vw;
+        border-radius: 1rem;
+    }
+    .logos h6{
+        font-size: 1rem;
+    }
+    .title{
+        font-size: 1.25rem;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px){
+    .container1{
+        height: 50vh;
+        
+    }
+    .intro div p{
+        font-size: 1.1rem;
+    }
+    .container2{
+        height: 90vh;
+    }
+    .skills{
+        padding-top: 5%;
+    }
+    .content{
+        width:60%;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .langs{
+        display: grid;
+        padding-top: 5%;
+        grid-template-columns: auto auto auto;
+        grid-gap: 6rem 2rem;
+    }
+    .langs div{
+        height: 15vh;
+        width: 20vw;
+        border-radius: 1rem;
+    }
+    .logos h6{
+        font-size: 1rem;
+    }
+    
+}
+
+/* Foldable Mobile */
+@media (min-width: 1024px) and (max-width: 1439px){
+    .container2{
+        height: 150vh;
+    }
+    .intro div p{
+        font-size: 1.1rem;
+    }
+    .content{
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .langs{
+        display: grid;
+        padding-top: 5%;
+        grid-template-columns: auto auto auto;
+        grid-gap: 8rem 2rem;
+    }
+    .langs div{
+        height: 30vh;
+        width: 20vw;
+        border-radius: 1rem;
+    }
+    .logos h6{
+        font-size: 1rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,376 @@
+body {
+  background-color: #0f0715;
+  color: white;
+}
+.row {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.container {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+.part1 {
+  display: block;
+  align-items: center;
+}
+.name {
+  font-size: 2.5rem;
+}
+.dev {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 5.5rem;
+  background: linear-gradient(to right, #8952f7, #ffffff);
+  background-clip: text;
+  color: transparent;
+  padding-bottom: 2%;
+}
+
+.cv {
+  font-size: 1.1rem;
+  width: 30%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5rem;
+  gap: 2.5%;
+  color: #8750f7;
+  border: 2px solid #8750f7;
+  transition: transform 0.4s ease, background-color 0.4s ease, color 0.4s;
+  background-color: #0f0715;
+}
+.cv:hover {
+  transition: transform 0.4s ease, background-color 0.4s ease, color 0.4s;
+  background-color: #8750f7;
+  color: white;
+}
+.btns {
+  padding-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  font-size: 3vh;
+  width: 40%;
+  height: 10vh;
+  list-style-type: none;
+}
+
+.part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Profile {
+  width: 50%;
+  border-radius: 1.5rem;
+  transform: rotate(10deg);
+  border: 4px solid #2a1454;
+  transition: transform 0.4s ease, border-color 0.4s ease; /* Add transition for border color */
+}
+
+.Profile:hover {
+  transform: rotate(0deg);
+  border: 4px solid #8750f7; /* Change border color on hover */
+}
+.part3 {
+  background-color: #050709;
+  display: flex;
+  align-items: center;
+  height: 80vh;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  margin-top: 4%;
+  text-align: center;
+}
+.heading {
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.information {
+  height: 100%;
+  width: 70%;
+}
+
+/* I PHONE 5 */
+@media (min-width: 0px) and (max-width: 320px) {
+  .container {
+    height: 120vh;
+  }
+  .part1 {
+    width: 100%;
+    height: 60%;
+  }
+  .row {
+    display: block;
+  }
+  .name {
+    font-size: 1.5rem;
+    width: 100%;
+    padding-top: 5%;
+  }
+  .dev {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+  .cv {
+    width: 45%;
+    font-size: 1rem;
+    height: 8vh;
+  }
+  .icons {
+    font-size: 5vh;
+  }
+  .btns {
+    gap: 5%;
+  }
+  .part2 {
+    width: 100%;
+    height: 40%;
+    padding-bottom: 5%;
+  }
+  .part3 {
+    height: 100vh;
+    font-size: 1rem;
+  }
+  .heading {
+    font-size: 1.5rem;
+  }
+  .content {
+    font-size: 1rem;
+  }
+  .information {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+/* NORMAL PHONE */
+@media (min-width: 321px) and (max-width: 375px) {
+  .container {
+    height: 100vh;
+  }
+  .part1 {
+    width: 100%;
+    height: 60%;
+  }
+  .name {
+    padding-top: 5%;
+  }
+  .row {
+    display: block;
+  }
+  .dev {
+    width: 100%;
+    font-size: 3rem;
+  }
+  .btns {
+    gap: 10%;
+  }
+  .cv {
+    width: 40%;
+    font-size: 1rem;
+    height: 6vh;
+  }
+  .icons {
+    font-size: 4vh;
+  }
+  .part2 {
+    width: 100%;
+    height: 40%;
+    padding-bottom: 5%;
+  }
+  .part3 {
+    height: 60vh;
+    font-size: 1rem;
+  }
+  .heading {
+    font-size: 1.5rem;
+  }
+  .content {
+    font-size: 1rem;
+  }
+  .content {
+    font-size: 1rem;
+  }
+  .information {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+/* I PHONE 13 ONE PLUS*/
+@media (min-width: 376px) and (max-width: 425px) {
+  .container {
+    height: 100vh;
+  }
+  .part1 {
+    width: 100%;
+    height: 60%;
+  }
+  .name {
+    padding-top: 5%;
+  }
+  .row {
+    display: block;
+  }
+  .row {
+    display: block;
+  }
+  .dev {
+    width: 100%;
+    font-size: 4rem;
+  }
+  .btns {
+    gap: 10%;
+  }
+  .cv {
+    width: 40%;
+    font-size: 1rem;
+    height: 6vh;
+  }
+  .icons {
+    font-size: 4vh;
+  }
+  .part2 {
+    width: 100%;
+    height: 40%;
+    padding-bottom: 5%;
+  }
+  .part3 {
+    height: 60vh;
+    font-size: 1rem;
+  }
+  .heading {
+    font-size: 1.5rem;
+  }
+  .content {
+    font-size: 1rem;
+  }
+  .information {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+/* I PHONE 13 MAX */
+@media (min-width: 426px) and (max-width: 767px) {
+  .container {
+    height: 100vh;
+  }
+  .part1 {
+    width: 100%;
+    height: 60%;
+  }
+  .name {
+    padding-top: 5%;
+  }
+  .row {
+    display: block;
+  }
+  .dev {
+    width: 100%;
+    font-size: 3rem;
+  }
+  .btns {
+    gap: 10%;
+  }
+  .cv {
+    width: 40%;
+    font-size: 1rem;
+    height: 6vh;
+  }
+  .icons {
+    font-size: 4vh;
+  }
+  .part2 {
+    width: 100%;
+    height: 40%;
+    padding-bottom: 5%;
+  }
+  .part3 {
+    height: 60vh;
+    font-size: 1rem;
+  }
+  .heading {
+    font-size: 1.5rem;
+  }
+  .content {
+    font-size: 1rem;
+  }
+  .content {
+    font-size: 1rem;
+  }
+  .information {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .dev {
+        width: 100%;
+        font-size: 3.5rem;
+    }
+    .Profile{
+        width: 70%;
+    }
+    .btns {
+        gap: 10%;
+      }
+      .icons {
+        font-size: 3vh;
+      }
+      .cv {
+        width: 50%;
+        font-size: 1rem;
+        height: 6vh;
+      }
+      .heading {
+        font-size: 2.5rem;
+      }
+
+      .information {
+        height: 100%;
+        width: 80%;
+      }
+}
+
+/* Foldable Mobile */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .container {
+    height: 100vh;
+  }
+  .dev {
+    width: 100%;
+    font-size: 3.5rem;
+  }
+  .btns {
+    gap: 10%;
+  }
+  .icons {
+    font-size: 5vh;
+  }
+  .cv {
+    width: 40%;
+    font-size: 1rem;
+    height: 8vh;
+  }
+}

@@ -1,0 +1,21 @@
+.container{
+    height: 110vh;
+    border: 2px solid    red;
+
+}
+.list {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: center;
+    list-style-type: none;
+}
+.dev{
+    display: none;
+}
+.list:hover .dev {
+    display: flex;
+}

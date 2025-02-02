@@ -1,0 +1,16 @@
+.bg-custom {
+    background-color: #0F0715 !important; /* Use !important to override Bootstrap styles if necessary */
+  }
+  .navbar-toggler-icon {
+    color: white !important;
+  }
+  .linkhover {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add transition for smoothness */
+  }
+  
+  .linkhover:hover {
+    color: #8750F7;
+  }

@@ -1,0 +1,74 @@
+.container{
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Logo{
+    width: 20%;
+    height: 50%;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.icons{
+    margin-top: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    font-size: 3vh;
+    list-style-type: none;
+}
+
+/* I PHONE 5 */
+@media (min-width: 0px) and (max-width: 320px){
+    .Logo{
+        margin-top: 5%;
+    }
+    .content h5{
+        font-size:1rem;
+    }
+    .icons{
+        margin-bottom: 5%;
+        font-size: 4vh;
+    }
+}
+/* NORMAL PHONE */
+@media (min-width: 321px) and (max-width: 375px){
+    .content h5{
+        width: 80%;
+        font-size: 1.2rem;
+    }
+}
+/* I PHONE 13 ONE PLUS*/
+@media (min-width: 376px) and (max-width: 425px){
+    .content h5{
+        width: 80%;
+    }
+}
+/* I PHONE 13 MAX */
+@media (min-width: 426px) and (max-width: 767px){
+    .content h5{
+        width: 80%;
+    }
+}
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px){
+    .content h5{
+        font-size: 1.5rem;
+    }
+}
+/* Foldable Mobile */
+@media (min-width: 1024px) and (max-width: 1439px){
+    .Logo{
+        margin-top: 5%;
+    }
+    .icons{
+        margin-bottom: 5%;
+        font-size: 1.5rem;
+    }
+}
