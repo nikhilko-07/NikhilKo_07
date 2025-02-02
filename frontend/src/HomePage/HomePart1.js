@@ -18,7 +18,7 @@ const HomePart1 = () => {
             </h4>
           </div>
           <div className={`${Style.btns}`}>
-          <a download="Nikhil_Kohli_Resume.docx" href={CV} style={{textDecoration:"none"}} className={`${Style.cv}`}>
+          <a download="Nikhil Resume.docx" href={CV} style={{textDecoration:"none"}} className={`${Style.cv}`}>
               Download CV
             </a>
             <div className={`${Style.icons}`}>
