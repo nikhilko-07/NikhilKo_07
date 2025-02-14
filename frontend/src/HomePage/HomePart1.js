@@ -8,7 +8,7 @@ const HomePart1 = () => {
       <div
         className={`${Style.row} row`}>
         <div className={`${Style.part1} col-6`}>
-          <div>
+          <div className={Style.intro}>
             <h2 className={`${Style.name}`}>I'm Nikhil Kohli</h2>
             <h3 className={`${Style.dev}`}>Full Stack Developer </h3>
 
