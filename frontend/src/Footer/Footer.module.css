@@ -2,6 +2,7 @@
     height: 25vh;
     display: flex;
     align-items: center;
+    border-top: 1px solid #8443fb;
     justify-content: center;
 }
 .Logo{

@@ -1,11 +1,19 @@
 .container{
-    height: 110vh;
-    border: 2px solid    red;
-
+    height: 100%;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+.header{
+    font-size: 4rem;
+    background: linear-gradient(to right, #8443fb, #fdfdfd);
+    text-align: center;
+    background-clip: text;
+    color: transparent;
 }
 .list {
-    margin-top: 10%;
+    margin-top: 5%;
     display: grid;
+    position: relative;
     grid-template-columns: auto auto;
     align-items: center;
     flex-direction: column;
@@ -13,9 +21,164 @@
     justify-content: center;
     list-style-type: none;
 }
+.list li {
+    background-color: #140C1C;
+    height: 40vh;
+    width: 25vw;
+    border-radius: 1rem;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+
+}
+
+.list li img {
+    width: 80%;
+    height: 90%;
+    object-fit: cover;
+}
+.list li:hover{
+    display: flex;
+}
+.list li span {
+    position: absolute;
+    padding-left: 1rem;
+    padding-top: 0.25rem;
+    z-index: 999;
+    border: none;
+    width: 90%;
+    height: 20%;
+    opacity: 0; /* Start with opacity 0 (invisible) */
+    visibility: hidden; /* Hidden initially */
+    border-radius: 1rem;
+    margin-bottom: 2.5%;
+    background: linear-gradient(to right, #8443fb, #2C1657);
+    transition: opacity 0.3s ease, visibility 0s 0.3s, transform 0.3s ease; /* Smooth transition for opacity and transform, delay visibility */
+    transform: translateY(10px); /* Start slightly shifted */
+}
+
+.list li:hover span {
+    opacity: 1; /* Fade in */
+    visibility: visible; /* Make visible */
+    transform: translateY(0); /* Move to original position */
+    transition: opacity 0.3s ease, visibility 0s 0s, transform 0.3s ease; /* Instant visibility change and smooth transform */
+}
+.links{
+    color: white;
+    text-decoration: none;
+}
+
 .dev{
     display: none;
 }
 .list:hover .dev {
     display: flex;
+}
+/* I PHONE 5 */
+@media (min-width: 0px) and (max-width: 320px) {
+    .container{
+        height: 100%;
+        margin-bottom: 15rem;
+    }
+    .header{
+        font-size: 2rem;
+    }
+    .list{
+        grid-template-columns: auto;
+    }
+    .list li{
+        width: 80vw;
+        height: 45vh;
+    }
+    .list li span{
+        height: 30%;
+        padding-top: 0.30rem;
+    }
+    .list li span a h3{
+        font-size: 1.25rem;
+    }
+}
+/* NORMAL PHONE */
+@media (min-width: 321px) and (max-width: 375px) {
+    .container{
+        height: 100%;
+        margin-bottom: 15rem;
+    }
+    .header{
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    .list{
+        grid-template-columns: auto;
+    }
+    .list li{
+        width: 80vw;
+        height: 40vh;
+    }
+    .list li span{
+        height: 30%;
+        padding-top: 1rem;
+    }
+
+}
+
+/* I PHONE 13 ONE PLUS*/
+@media (min-width: 376px) and (max-width: 425px) {
+    .container{
+        height: 100%;
+        margin-bottom: 20rem;
+    }
+    .header{
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    .list{
+        grid-template-columns: auto;
+    }
+    .list li{
+        width: 80vw;
+        height: 40vh;
+    }
+    .list li span{
+        height: 30%;
+        padding-top: 1rem;
+    }
+}
+/* I PHONE 13 MAX */
+@media (min-width: 426px) and (max-width: 767px) {
+    .container{
+        height: 100%;
+        margin-bottom: 20rem;
+    }
+    .header{
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    .list{
+        grid-template-columns: auto;
+    }
+    .list li{
+        width: 80vw;
+        height: 40vh;
+    }
+    .list li span{
+        height: 30%;
+        padding-top: 1rem;
+    }
+}
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container{
+        height: 100%;
+        margin-bottom: 10rem;
+    }
+    .list li{
+        width: 40vw;
+        height: 30vh;
+    }
+    .list li span{
+        height: 30%;
+        padding-top: 1rem;
+    }
 }

@@ -6,6 +6,7 @@ import Footer from "./Footer/Footer.js";
 import WrongPage from "./WrongPage/WrongPage.js";
 import AboutPage from "./AboutPage/AboutPage.js";
 import ContactPage from "./ContactPage/ContactPage.js";
+import Projects from "./Projects/Projects";
 function App() {
   return (
     <BrowserRouter>
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/projects" element={<Projects/>}/>
         <Route path="*" element={<WrongPage />} />
       </Routes>
       <Footer/>

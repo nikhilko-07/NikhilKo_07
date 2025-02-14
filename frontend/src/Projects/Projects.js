@@ -6,7 +6,7 @@ const Projects = () => {
   return (
    <>
    <ProjectsPage1/>
-   <ProjectsPage2/>
+   {/*<ProjectsPage2/>*/}
    </>
   )
 }
