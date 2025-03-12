@@ -1,7 +1,7 @@
 import React from "react";
 import Style from "./HomePage.module.css";
 import Profile from "./Profile.png";
-import CV from "./docs/Nikhil Resume.docx";
+import CV from "./docs/Nikhil Kohli Resume .docx";
 const HomePart1 = () => {
   return (
     <div className={`${Style.container} container`}>
