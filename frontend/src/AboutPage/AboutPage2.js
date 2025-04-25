@@ -30,8 +30,8 @@ const AboutPage2 = () => {
               <div className={`${Style.logos}`}><div ><img  alt="logo"src={jsimg} />     <h6>84%</h6></div><p className={`${Style.title}`}>JavaScript</p></div>
               <div className={`${Style.logos}`}><div ><img  alt="logo"src={mongoimg} />  <h6>96%</h6></div><p className={`${Style.title}`}>MongoDB</p></div>
               <div className={`${Style.logos}`}><div ><img  alt="logo"src={expressimg} /><h6>89%</h6></div><p className={`${Style.title}`}>Express</p></div>
-              <div className={`${Style.logos}`}><div ><img  alt="logo"src={nodeimg} />   <h6>84%</h6></div><p className={`${Style.title}`}>Node</p></div>
-              <div className={`${Style.logos}`}><div ><img  alt="logo"src={redux} />     <h6>70%</h6></div><p className={`${Style.title}`}>Redux</p></div>
+              <div className={`${Style.logos}`}><div ><img  alt="logo"src={nodeimg} />   <h6>80%</h6></div><p className={`${Style.title}`}>Node</p></div>
+              <div className={`${Style.logos}`}><div ><img  alt="logo"src={redux} />     <h6>84%</h6></div><p className={`${Style.title}`}>Redux</p></div>
             </div>
           </div>
         </div>

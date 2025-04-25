@@ -13,8 +13,8 @@ const AboutPage1 = () => {
           <div>
             <h1>Who <span style={{color:"#8750F7"}}>Am I ?</span></h1>
             <p> Hey, I am <span style={{color:"#8750F7"}}> Nikhil Kohli</span> from <span style={{color:"#8750F7"}}> New Delhi, India.</span></p>
-            <p> I am currently at<span style={{color:"#8750F7"}}> Unified Mentore Company</span> as a Full Stack Developer.</p>
-            <p><span style={{color:"#8750F7"}}>I’m 18</span> years old, a<span style={{color:"#8750F7"}}>Full Stack Web Dev,</span>  and always learning new creative languages to push the limits of code!</p>
+              <p>I recently completed my internship as a<span style={{color:"#8750F7"}}> Full Stack Developer </span> at<span style={{color:"#8750F7"}}> Unified Mentor Company</span> and am currently seeking new opportunities.</p>
+            <p><span style={{color:"#8750F7"}}>I’m 19</span> years old, a<span style={{color:"#8750F7"}}>Full Stack Web Dev,</span>  and always learning new creative languages to push the limits of code!</p>
             <h5 style={{marginTop:"2%"}}>Besides coding, here are some other activities I'm passionate about!</h5>
             <p> Playing Valorant, <span style={{color:"#8750F7"}}>Minecraft,</span>  Fortnite,<span style={{color:"#8750F7"}}> GTA 5(online),</span> Free Fire etc</p>
           </div>
