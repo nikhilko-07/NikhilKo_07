@@ -40,7 +40,7 @@ const Navbar = () => {
       }}
     >
       <div className="container text-white">
-        <a className="navbar-brand" href="/NikhilKo_07/frontend/public">
+        <a className="navbar-brand" href="/">
           <img width={50} src={Logo} alt="Logo" />
         </a>
         <button
