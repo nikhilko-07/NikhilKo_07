@@ -1,7 +1,7 @@
 import React from "react";
 import Style from "./HomePage.module.css";
 import Profile from "./Profile.png";
-import CV from "./docs/Nikhil Kohli Resume .docx";
+import CV from "./docs/Nikhil Kohli Resume.pdf";
 const HomePart1 = () => {
   return (
     <div className={`${Style.container} container`}>
@@ -23,7 +23,7 @@ const HomePart1 = () => {
             </a>
             <div className={`${Style.icons}`}>
               <li>
-                <a style={{color:"white"}} href="https://www.instagram.com/nikhilko_07">
+                <a style={{color:"white"}} href="https://www.instagram.com/nikhilkohli_24">
                 <i class='bx bxl-instagram-alt'  ></i>
                 </a>
               </li>
