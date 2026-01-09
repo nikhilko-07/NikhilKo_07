@@ -12,7 +12,7 @@ const Footer = () => {
           </div>
 
           <div className={`${Style.content}`} >
-            <h5>© 2025 All Rights Reserved by Nikhil Kohli</h5>
+            <h5>© 2026 All Rights Reserved by Nikhil Kohli</h5>
           </div>
 
           <div className={`${Style.icons}`}>
