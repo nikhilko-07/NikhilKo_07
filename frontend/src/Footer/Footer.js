@@ -19,7 +19,7 @@ const Footer = () => {
             <li>
               <a
                 style={{ color: "white" }}
-                href="https://www.instagram.com/nikhilkohli_24"
+                href="https://www.instagram.com/nikhilko_07"
               >
                 <i class="bx bxl-instagram-alt"></i>
               </a>
