@@ -67,7 +67,7 @@ const ContactPart1 = () => {
               ></i>
               <div>
                 <h6>Mobile No</h6>
-                <p>It's not available</p>
+                <p>Time nahi hai</p>
               </div>
             </li>
 
@@ -90,8 +90,7 @@ const ContactPart1 = () => {
               <div>
                 <h6>Address</h6>
                 <p>
-                  Paschim vihar Jwalapuri <br />
-                  110087,New Delhi
+                  New Delhi
                 </p>
               </div>
             </li>
